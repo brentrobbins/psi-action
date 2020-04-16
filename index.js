@@ -15,7 +15,7 @@ const run = async () => {
     await psi.output(url, {
       nokey: "true",
       strategy,
-      format: "cli",
+      format: "json",
       threshold
     });
   } catch (error) {
